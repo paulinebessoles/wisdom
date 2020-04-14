@@ -69,6 +69,6 @@ class SheetsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def sheet_params
-      params.require(:sheet).permit(:title, :description)
+      params.require(:sheet).permit(:title, :description, :director, :director_id)
     end
 end

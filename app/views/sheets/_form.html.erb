@@ -17,7 +17,11 @@
     <%= form.label :description %>
     <%= form.text_field :description %>
     <%= form.label :director %>
-    <%= form.text_field :director %>
+    <%= form.select(
+      :director_id,
+      Director.all.collect {|director| [director.name, director.id]},
+      prompt: 'Select'
+    ) %>
   </div>
 
   <div class="actions">

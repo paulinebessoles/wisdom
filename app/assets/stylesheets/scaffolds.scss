@@ -1,22 +1,13 @@
 body {
-  background-color: #000;
-  color: #a83636;
-  margin: 50px;
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 18px;
 }
-h1 {
-  color: #a83636;
-  text-align: center;
-  margin: 30px 30px;
-}
-td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  color: #a83636;
-}
 
-p, ol, ul {
+p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -29,10 +20,10 @@ pre {
 }
 
 a {
-  color: #1f38ff;
+  color: #000;
 
   &:visited {
-    color: #1f38ff;
+    color: #666;
   }
 
   &:hover {
@@ -42,12 +33,11 @@ a {
 }
 
 th {
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 td {
-  padding: 0 10px 10px;
+  padding: 0 5px 7px;
 }
 
 div {
@@ -58,8 +48,6 @@ div {
 
 #notice {
   color: green;
-  font-size: bold;
-  background-color: #edffed;
 }
 
 .field_with_errors {
@@ -93,8 +81,4 @@ div {
 
 label {
   display: block;
-}
-div.field > input {
-  padding: 3px 10px;
-  margin: 10px;
 }
